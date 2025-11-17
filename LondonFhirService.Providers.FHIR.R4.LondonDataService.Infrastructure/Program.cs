@@ -15,7 +15,7 @@ namespace LondonFhirService.Providers.FHIR.R4.LondonDataService.Infrastructure
             scriptGenerationService.GenerateBuildScript(
                 branchName: "main",
                 projectName: "LondonFhirService.Providers.FHIR.R4.LondonDataService",
-                dotNetVersion: "9.0.100");
+                dotNetVersion: "10.0.100");
 
             scriptGenerationService.GeneratePrLintScript(branchName: "main");
         }
